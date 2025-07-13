@@ -115,7 +115,7 @@ input_data = {
 
 # --- Try Loading Model ---
 try:
-    model = joblib.load("D:/Machine learning/ML Project/Nyc_taxi_fare_prediction/Data/taxi_fare_model.pkl")
+    model = joblib.load("Nyc_taxi_fare_prediction/Data/taxi_fare_model.pkl")
 
     # --- Layout Split into Two Columns ---
     col1, col2 = st.columns([1, 1])
