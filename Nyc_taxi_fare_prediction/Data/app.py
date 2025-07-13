@@ -37,7 +37,7 @@ input_data = {
 
 # Load model
 try:
-    model = joblib.load('Data/taxi_fare_model.pkl')
+    model = joblib.load('Nyc_taxi_fare_prediction/Data/taxi_fare_model.pkl')
 
     # Prediction logic with session state
     if 'fare' not in st.session_state:
